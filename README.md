@@ -4,14 +4,14 @@ Hi! This is SonOpt 2.0, a Max/MSP application for sonifying bi-objective populat
 
 Requirements:
 
-- Max 7.0 or above (demo version also works, you can download it here: https://cycling74.com/downloads/ )
+- Max 7.0 or above ( demo version also works, you can download it here: https://cycling74.com/downloads/ )
 - Python OSC ( more on how to install here: https://pypi.org/project/python-osc/ )
 
-Optional (in case you want to run the test algorithms without any modification):
+Optional (in case you want to run the test algorithms provided here without further modification):
 
-- Pymoo (more on how to install here: https://pymoo.org/ )
-- Scikit-learn (more on how to install here: https://scikit-learn.org/stable/install.html )
-- Numpy (more on how to install here: https://numpy.org/install/ )
+- Pymoo ( more on how to install here: https://pymoo.org/ )
+- Scikit-learn ( more on how to install here: https://scikit-learn.org/stable/install.html )
+- Numpy ( more on how to install here: https://numpy.org/install/ )
 
 
 If you do not wish to use pymoo - although we highy recommend it - you are free to do so. In this case, you are encouraged to copy and paste in your code the snippet 'Message formatting and OSC setup'. This is to ensure a smooth communication between SonOpt and your algorithm, including the correct formatting of the values sent to MAX/MSP.
