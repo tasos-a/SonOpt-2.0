@@ -54,7 +54,7 @@ while algorithm.has_next():
         new_set = np.delete(scaled_set, index, 0) 
         hypervolume_of_new_set = hv.do(new_set)
         hypervolume_contribution = hypervolume - hypervolume_of_new_set 
-        hypervolume_contributions_list = np.array(hypervolume_contributions_list, dtype=np.float)
+        hypervolume_contributions_list = np.array(hypervolume_contributions_list, dtype=float)
         hypervolume_contributions_list = np.append(hypervolume_contributions_list, hypervolume_contribution)
             
     #convert the arrays into lists
